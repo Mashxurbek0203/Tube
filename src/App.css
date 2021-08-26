@@ -1,0 +1,68 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  flex-shrink: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  overflow-x: hidden;
+}
+
+html,body {
+  background: #17171e;
+  overflow-x:  hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  /* white-space: nowrap;  */
+  width: 1px;
+}
+
+.icon {
+  fill: rgba(255, 255, 255, 0.4);
+}
+
+.icon:hover {
+  fill: rgba(255, 255, 255, 0.8);
+
+}
+
+main {
+  margin-top: 30px;
+}
+
+.main-wrapper {
+  display: flex;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.not-found-wrapper {
+  flex-grow: 1;
+  height: 100%;
+  font-size: 72px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
