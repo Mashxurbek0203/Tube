@@ -1,7 +1,7 @@
 function Svg() {
   return (
     <>
-    <div className="visually-hidden">
+    <div className="hidden-sprite">
 
 <svg width="0" height="0" className="hidden">
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" id="library-icon">
